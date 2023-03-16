@@ -7,8 +7,8 @@
     <groupId>be.vdab</groupId>
     <artifactId>GoedeDoel</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Goede doel</name>
-    <description>Goede doel</description>
+    <name>Goededoel</name>
+    <description>Goededoel</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
