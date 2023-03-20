@@ -19,6 +19,10 @@ public class GoedeDoel {
 	}
 
 	@Override
+	public int hashCode() {
+		return this.naam.toUpperCase().hashCode();
+	}
+	@Override
 	public boolean equals(Object object) {
 		return object instanceof GoedeDoel ander && naam.equalsIgnoreCase(ander.naam);
 	}
